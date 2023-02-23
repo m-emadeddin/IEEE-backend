@@ -1,5 +1,5 @@
 /*
-    Problem Link: https://www.hackerrank.com/challenges/print-prime-numbers/problem?isFullScreen=true
+    Problem Link: https://www.hackerrank.com/challenges/print-prime-numbers/problem
     Submission: https://www.hackerrank.com/challenges/contest-leaderboard/submissions/database/315675303
 */
 DECLARE @N INT = 2;
