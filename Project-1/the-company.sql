@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/the-company/problem
-    P4 Submission: https://www.hackerrank.com/challenges/the-company/submissions/database/315643370
+    Submission: https://www.hackerrank.com/challenges/the-company/submissions/database/315643370
 */
 SELECT Company.company_code, Company.founder, 
 COUNT( DISTINCT Employee.lead_manager_code),

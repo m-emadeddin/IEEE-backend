@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/contest-leaderboard/problem
-    P10 Submission: https://www.hackerrank.com/challenges/contest-leaderboard/submissions/database/315675303
+    Submission: https://www.hackerrank.com/challenges/contest-leaderboard/submissions/database/315675303
 */
 SELECT h.hacker_id, h.name, sum(s.score)
 FROM (SELECT hacker_id, challenge_id, max(score) as score

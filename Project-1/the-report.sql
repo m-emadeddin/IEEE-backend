@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/the-report/problem
-    P3 Submission: https://www.hackerrank.com/challenges/the-report/submissions/database/315640161
+    Submission: https://www.hackerrank.com/challenges/the-report/submissions/database/315640161
 */
 SELECT 
     CASE

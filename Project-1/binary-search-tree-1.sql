@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/binary-search-tree-1/problem
-    P2 Submission: https://www.hackerrank.com/challenges/binary-search-tree-1/submissions/database/314816478
+    Submission: https://www.hackerrank.com/challenges/binary-search-tree-1/submissions/database/314816478
 */
 SELECT N, 
     CASE 

@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/full-score/problem
-    P8 Submission: https://www.hackerrank.com/challenges/full-score/submissions/database/315652869
+    Submission: https://www.hackerrank.com/challenges/full-score/submissions/database/315652869
 */
 SELECT h.hacker_id, h.name 
 FROM Hackers h, Difficulty d, Challenges c, Submissions s 

@@ -1,6 +1,6 @@
 /*
     Problem Link: https://www.hackerrank.com/challenges/harry-potter-and-wands/problem
-    P9 Submission: https://www.hackerrank.com/challenges/harry-potter-and-wands/submissions/database/315673734
+    Submission: https://www.hackerrank.com/challenges/harry-potter-and-wands/submissions/database/315673734
 */
 SELECT W.ID, WP.AGE, W.COINS_NEEDED, W.POWER
 FROM WANDS W
