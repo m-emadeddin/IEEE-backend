@@ -47,7 +47,7 @@
 
 ---
 
-**Total of All problems : 20 Points**
+### **Total of All problems : 20 Points**
 
 ![NOICE MEME](https://media2.giphy.com/media/yJFeycRK2DB4c/giphy.gif?cid=ecf05e47qjjhwu1o8awtwodx27yplcwz4frisb782f43yw8r&rid=giphy.gif&ct=g "NOICE MEME")
 
