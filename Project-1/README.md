@@ -24,6 +24,7 @@
 * [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19/problem "Weather Observation Station 19") - [My Submission](https://www.hackerrank.com/challenges/weather-observation-station-19/submissions/database/315646721 "My Hackerrank Submission")
 
 **With Total of : 3 Points**
+
 ---
 
 #### Medium (Intermediate) - 2 Points Each
@@ -36,12 +37,14 @@
 * [Symmetric Pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem "Symmetric Pairs") - [My Submission](https://www.hackerrank.com/challenges/symmetric-pairs/submissions/database/315761257 "My Hackerrank Submission")
 
 **With Total of : 14 Points**
+
 ---
 
 #### Medium (Advanced) - 3 Points Each
 * [Print Prime Numbers](https://www.hackerrank.com/challenges/print-prime-numbers/problem "Print Prime Numbers") - [My Submission](https://www.hackerrank.com/challenges/contest-leaderboard/submissions/database/315675303 "My Hackerrank Submission")
 
 **With Total of : 3 Points**
+
 ---
 
 **Total of All problems : 20 Points**
