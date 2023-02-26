@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employees Interest survey form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Employees Interest survey form</h1>
+		<form id="surveyForm" action="user/index.html" method="get">
+			<label for="name">Enter your name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="department">Enter your department:</label>
+			<input type="text" id="department" name="department" required>
+
+			<label for="about">Tell us about yourself:</label>
+			<textarea id="about" name="about"></textarea>
+
+			<label for="exercise">Do you exercise at home?</label>
+			<div class="radio-container">
+				<input type="radio" id="yes" name="exercise" value="yes" required>
+				<label for="yes">Yes</label>
+
+				<input type="radio" id="no" name="exercise" value="no" required>
+				<label for="no">No</label>
+			</div>
+
+			<label>How do you like to read about your favorite topics?</label>
+			<div class="checkbox-container">
+				<input type="checkbox" id="books" name="reading[]" value="books">
+				<label for="books">Books</label>
+
+				<input type="checkbox" id="online-resources" name="reading[]" value="online-resources">
+				<label for="online-resources">Online resources</label>
+
+				<input type="checkbox" id="phone-apps" name="reading[]" value="phone-apps">
+				<label for="phone-apps">Phone apps</label>
+
+				<input type="checkbox" id="magazines" name="reading[]" value="magazines">
+				<label for="magazines">Magazines</label>
+			</div>
+
+			<label for="movie-genre">What genre of movies do you like?</label>
+			<select id="movies" name="movies" required>
+				<option value="" selected disabled hidden>Select a genre</option>
+				<option value="action">Action</option>
+				<option value="comedy">Comedy</option>
+				<option value="drama">Drama</option>
+				<option value="horror">Horror</option>
+				<option value="romance">Romance</option>
+			</select>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* Global styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Form styles */
+#surveyForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: slide-in 0.5s ease-out;
+}
+
+label {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"], textarea, select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+.radio-container label,
+.checkbox-container label {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.radio-container label:hover,
+.checkbox-container label:hover {
+    background-color: #ddd;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    background-color: #333;
+    color: #fff;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #404040;
+}
+
+/* Animations */
+@keyframes slide-in {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
